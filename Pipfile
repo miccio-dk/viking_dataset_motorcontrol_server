@@ -1,7 +1,12 @@
 [[source]]
-name = "pypi"
-url = "https://pypi.org/simple"
+url = "https://www.piwheels.org/simple"
 verify_ssl = true
+name = "piwheels"
+
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
 
 [dev-packages]
 pylint = "*"
